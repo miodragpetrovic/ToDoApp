@@ -1,3 +1,6 @@
-input, textarea {
-    display: block;
+input, textarea, button {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 5px;
 }
